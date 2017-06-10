@@ -1,0 +1,106 @@
+*{
+/*   outline: 1px solid red; */
+}
+
+body{
+  width: 80%;
+  margin: auto;
+}
+
+.header{
+  padding: 10px;
+  margin: 5px auto;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+  color: #00264d;
+  font-family: Georgia;
+  font-style: italic;
+  background-color: #33ccff;
+}
+
+.bio{
+  margin: 5px auto;
+  background-color: #ebebe0;
+}
+
+.details{
+  padding-bottom: 5px;
+}
+
+.details table tr th{
+  padding: 5px;
+  border: 2px solid #b366ff;
+}
+
+.details table tr td{
+  padding: 5px;
+  border: 2px solid #b366ff;
+}
+
+.picture{
+  margin: 10px auto;
+}
+
+.picture table{
+  float: right;
+}
+
+.picture table tr{
+  max-width: 300px;
+  max-height: 375px;
+}
+
+.picture img{
+  border: 2px solid #000000;
+  border-radius: 5px;
+  max-width: 300px;
+  max-height: 375px;
+}
+
+.about{
+  margin: 5px auto;
+  padding: 5px 10px;
+  background-color: #ebebe0;
+}
+
+h3{
+  font-family: Georgia;
+}
+
+.timeline{
+  margin: 5px auto;
+  padding: 5px 10px;
+  background-color: #ebebe0;
+}
+
+.quote-box{
+  padding: 10px;
+  font-family: Condiment;
+  font-size: 22px;
+  border: 2px solid #cc9900;
+  border-radius: 15px;
+}
+
+.quote{
+  color: #669900;
+}
+
+.quote-by{
+  color: #999966;
+  text-align: right;
+}
+
+.footer{
+  padding: 10px;
+  margin: 5px auto;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px; 
+  font-size: 18px;
+  color: #ffffff;
+  font-family: Georgia;
+  background-color: #33ccff;
+}
+
+.footer a{
+  color: #990033;
+}
